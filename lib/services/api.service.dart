@@ -19,6 +19,7 @@ class ApiService extends BaseService {
       for (var result in results) {
         authors.add(Author.fromJson(result));
       }
+
       return authors;
     } catch (e) {
       log(e.toString());

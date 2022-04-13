@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.app.know_famous_people">
    <application
-        android:label="codemagic_demo_app"
+        android:label="Know Famous People"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
