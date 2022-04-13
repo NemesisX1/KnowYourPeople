@@ -1,4 +1,4 @@
-package com.example.codemagic_demo_app
+package com.app.know_famous_people
 
 import io.flutter.embedding.android.FlutterActivity
 
