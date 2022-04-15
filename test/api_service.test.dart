@@ -3,7 +3,6 @@ import 'package:codemagic_demo_app/services/api.service.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
 import 'package:codemagic_demo_app/main.dart';
 
 void main() {

@@ -8,19 +8,20 @@ class Author extends BaseModel {
   String? name;
   int? quoteCount;
   String? slug;
-  String? dateAdded;
-  String? dateModified;
+  DateTime? dateAdded;
+  DateTime? dateModified;
 
-  Author(
-      {this.link,
-      this.bio,
-      this.description,
-      this.sId,
-      this.name,
-      this.quoteCount,
-      this.slug,
-      this.dateAdded,
-      this.dateModified});
+  Author({
+    this.link,
+    this.bio,
+    this.description,
+    this.sId,
+    this.name,
+    this.quoteCount,
+    this.slug,
+    this.dateAdded,
+    this.dateModified,
+  });
 
   Author.fromJson(Map<String, dynamic> json) {
     link = json['link'];
@@ -30,8 +31,8 @@ class Author extends BaseModel {
     name = json['name'];
     quoteCount = json['quoteCount'];
     slug = json['slug'];
-    dateAdded = json['dateAdded'];
-    dateModified = json['dateModified'];
+    dateAdded = DateTime.parse(json['dateAdded']);
+    dateModified = DateTime.parse(json['dateModified']);
   }
 
   @override
@@ -46,6 +47,7 @@ class Author extends BaseModel {
     data['slug'] = slug;
     data['dateAdded'] = dateAdded;
     data['dateModified'] = dateModified;
+    data['imageUrl'] = imageUrl;
     return data;
   }
 
