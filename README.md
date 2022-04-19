@@ -14,6 +14,9 @@ The app is about displaying informations about famous quotes authors fetched fro
 | ----------- | ----------- |
 | ![home.view.dart screenshot](assets/home.png) | ![author.view.dart screenshot](assets/detail.png) |
 
+> ## 💥 Future
+
+Maybe adding search and pagination features ?
 
 ## Getting Started with Flutter
 
