@@ -1,8 +1,21 @@
-# codemagic_demo_app
+# KnowYourPeople
 
-A new Flutter project.
+This is a sampple project to show you to write readable code for an Android/iOS Flutter app and deploy it on stores using [Codemagic.io](https://codemagic.io/).
 
-## Getting Started
+The app is about displaying informations about famous quotes authors fetched from [quotable](https://quotable.io/).
+
+> ## :sunglasses:  Author
+
+**Junior Medehou** [![Twitter Follow](https://img.shields.io/twitter/follow/juniormedehou_?label=Follow&style=social)](https://twitter.com/juniormedehou_)
+
+> ## Screenshots
+
+| Home | Detail |
+| ----------- | ----------- |
+| ![home.view.dart screenshot](assets/home.png) | ![author.view.dart screenshot](assets/detail.png) |
+
+
+## Getting Started with Flutter
 
 This project is a starting point for a Flutter application.
 
